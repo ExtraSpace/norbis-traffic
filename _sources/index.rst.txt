@@ -6,8 +6,6 @@
 Welcome to Traffic Jam's documentation!
 =======================================
 
-This is our text 
-
 .. toctree::
    :maxdepth: 2
 
