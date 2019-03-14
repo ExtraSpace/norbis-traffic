@@ -6,14 +6,13 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>traffic_jam &#8212; Traffic Jam 1.01 documentation</title>
+    <title>traffic_jam &#8212; Traffic Jam  documentation</title>
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
-    <script type="text/javascript" src="../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
    
@@ -47,7 +46,7 @@
 <span class="c1"># starting_space = 100</span>
 <span class="n">starting_velocity</span> <span class="o">=</span> <span class="mi">2</span>
 
-<span class="k">def</span> <span class="nf">simple_run</span><span class="p">(</span><span class="n">n_timesteps</span><span class="p">):</span>
+<div class="viewcode-block" id="simple_run"><a class="viewcode-back" href="../results.html#traffic_jam.simple_run">[docs]</a><span class="k">def</span> <span class="nf">simple_run</span><span class="p">(</span><span class="n">n_timesteps</span><span class="p">):</span>
     <span class="sd">&#39;&#39;&#39; Run the simulation for a given number of timesteps.</span>
 
 <span class="sd">    Args:</span>
@@ -63,7 +62,7 @@
     <span class="n">road</span><span class="o">.</span><span class="n">add_multiple_cars</span><span class="p">(</span><span class="n">starting_positions</span><span class="p">,</span> <span class="n">starting_velocity</span><span class="p">)</span>
     <span class="n">road</span><span class="o">.</span><span class="n">run_simulation</span><span class="p">(</span><span class="n">n_timesteps</span><span class="p">)</span>
     <span class="n">history_position_array</span> <span class="o">=</span> <span class="n">road</span><span class="o">.</span><span class="n">get_history_position_array</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">history_position_array</span>
+    <span class="k">return</span> <span class="n">history_position_array</span></div>
 
 <div class="viewcode-block" id="peturb_traffic"><a class="viewcode-back" href="../results.html#traffic_jam.peturb_traffic">[docs]</a><span class="k">def</span> <span class="nf">peturb_traffic</span><span class="p">(</span><span class="n">starting_positions</span><span class="p">,</span> <span class="n">n_timesteps_before</span><span class="p">,</span> <span class="n">n_timesteps_slowed</span><span class="p">,</span>
                    <span class="n">n_timesteps_after</span><span class="p">,</span> <span class="n">slow_car_num</span><span class="o">=</span><span class="mi">3</span><span class="p">):</span>
@@ -143,8 +142,7 @@
 <h3>Navigation</h3>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../introduction.html">Project: Traffic Jam with Python</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../road.html">Road</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../car.html">Car</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../structure.html">Structure of the program</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../results.html">Results</a></li>
 </ul>
 
@@ -185,7 +183,7 @@
       &copy;2019, CSSD2019.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
     </div>

@@ -6,11 +6,13 @@
 Welcome to Traffic Jam's documentation!
 =======================================
 
+This is our text 
+
 .. toctree::
    :maxdepth: 2
 
    introduction
-   road
-   car
+   structure
    results
+
 
